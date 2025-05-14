@@ -47,19 +47,19 @@ export const content_dic = {
     ],
     'inventory' : [
         'inventory banner',
-        {'item categories' : 'inventory:category'},
+        {'item categories' : 'inventory :category'},
     ],
-    'inventory:category': [
+    'inventory :category': [
         'category banner',
         'listed items with photos, rental button, and purchase price if for sale',
-        {'filter by brand' : 'inventory:category:brand'},
+        {'filter by brand' : 'inventory :category :brand'},
         { 'relative navigation' : 'inventory'}
     ],
-    'inventory:category:brand': [
+    'inventory :category :brand': [
         'brand showcase item',
         'listed items with photos, rental button, and purchase price if for sale',
         { 'relative navigation' : 'inventory'},
-        { 'relative navigation' : 'inventory:category'}
+        { 'relative navigation' : 'inventory :category'}
     ],
     'join rhema': [
         'name input',
@@ -74,7 +74,7 @@ export const content_dic = {
     ],
     'live sound' : [
         'live sound banner',
-        {'service list' : 'services:service'},
+        {'service list' : 'services :service'},
         'highlighted client accolades'        
     ],
     'menu' : [
@@ -90,7 +90,7 @@ export const content_dic = {
         'sound engineers section with pics names and summaries',
         'tech section with pics and names',
         'supporting staff section with pics names and titles',
-        {'join rhema': 'join rhema'}
+        {'Info about working at Rhema': 'join rhema'}
     ],
     'rental request': [
         'date input',
@@ -108,7 +108,7 @@ export const content_dic = {
         'phone number',
         {'book' : 'book'}
     ],
-    'services:service' : [
+    'services :service' : [
         'service banner',
         'service description',
         'previous clients list',
