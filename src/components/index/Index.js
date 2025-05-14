@@ -7,7 +7,7 @@ export const Index = () => {
         })
     return (
     <div className={style.index}>
-        <h1>Complete Page Index</h1>
+        <h1>Complete Site Index</h1>
         {links}
         <p>*The presence of parameters (ie ':service') indicate a variable. These pages are actually templates that will result in serval pages. On your final site, the actual path name will look more like: "services/weddings" and the related page will serve up relevant information based on the given parameters.</p>
     </div>)
