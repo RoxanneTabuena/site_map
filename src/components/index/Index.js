@@ -1,8 +1,8 @@
 import { NavLink } from 'react-router-dom'
-import { site_dic } from '../site_info'
+import { content_dic } from '../site_info'
 import style from './index.module.css'
 export const Index = () => {
-    let links = Object.keys(site_dic).map(page => {
+    let links = Object.keys(content_dic).map(page => {
             return <NavLink to={`/map/:${page}`} key={page}>{page}</NavLink>
         })
     return (
