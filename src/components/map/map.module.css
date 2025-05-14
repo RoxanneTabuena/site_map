@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: flex-end;
     margin: .5rem;
-    height: 5rem;
+    height: 3.5rem;
 }
 
 .map {
@@ -59,9 +59,9 @@
     align-items: center;
     justify-content: flex-start;
     border: 1px solid black;
-    width: 55%;
+    width: 90%;
     padding: .5rem;
-    height: 5rem;
+    height: fit-content;
     margin: .5rem;
 }
 h2 {

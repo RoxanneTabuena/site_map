@@ -29,13 +29,14 @@ ol[role='list'] {
 /* Set core body defaults */
 body {
   min-height: 100vh;
-  line-height: 1.5;
+  max-width: 500px;
+  margin: auto;
 }
 
 /* Set shorter line heights on headings and interactive elements */
 h1, h2, h3, h4,
 button, input, label {
-  line-height: 1.1;
+  line-height: 1;
 }
 
 /* Balance text wrapping on headings */

@@ -28,7 +28,7 @@ export const Map = () => {
         <p>{summary_dic[id]}</p>
         </div>
         <div className={style.rightCol}>
-        <h2>{`${capitalize(id)} Content:`}</h2>
+        <h2>{`${capitalize(id)} Content`}</h2>
         {sxatic}
         {links}
         </div>

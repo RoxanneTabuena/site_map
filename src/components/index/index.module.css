@@ -1,4 +1,24 @@
+.index{
+    text-align: center;
+}
 .index>*{
     display: block;
     text-decoration: none;
+    margin: .5rem;
+}
+
+.link {
+    color: white;
+    font-weight: 700;
+    background-color: blueviolet;
+    background-image: linear-gradient(black, blueviolet);
+    padding: .5rem;
+    margin: .2rem;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
 }
