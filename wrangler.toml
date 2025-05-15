@@ -1,0 +1,3 @@
+name = "site_map"
+compatibility_date = "2025-05-15"
+assets = { directory = "build" }
