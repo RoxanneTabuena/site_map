@@ -14,7 +14,8 @@
   },
   "devDependencies": {
     "postcss": "^8.5.3",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "wrangler": "^4.14.4"
   },
   "scripts": {
     "start": "react-scripts start",
