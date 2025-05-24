@@ -1,5 +1,6 @@
 .index{
     text-align: center;
+    width: 100%;
 }
 .index>*{
     display: block;
@@ -8,17 +9,28 @@
 }
 
 .link {
+    font-family: 'Highlights';
     color: white;
     font-weight: 700;
     background-color: blueviolet;
-    background-image: linear-gradient(black, blueviolet);
+    border-radius: 5px;
     padding: .2rem;
     margin: .2rem;
+    width: 135px;
+    height: 40px;
+    text-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .links{
     display: flex;
     justify-content: center;
-    align-content: space-between;
+    align-content: center;
     flex-wrap: wrap;
+}
+
+.index>h1{
+    font-family: 'Titles';
 }

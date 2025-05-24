@@ -6,7 +6,7 @@ export const Root = () => {
         return <Navigate to="map/:home"/>
     }
     return (<div>
-        {path !== '/index' && <NavLink to="index" className={style.root}>Rhema Site Index</NavLink>}
+        {path !== '/index' && <NavLink to="index" className={style.root}>View Site Index</NavLink>}
         <Outlet/>
     </div>)
 }

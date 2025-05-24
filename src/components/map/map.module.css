@@ -4,20 +4,23 @@
     justify-content: space-between;
     align-items: flex-end;
     margin: .2rem;
-    height: 3.5rem;
+    height: 3rem;
 }
 
 .map {
     margin: auto;
     max-width: 90%;
-    background-color: white;
 }
 
 .main {
     color: white;
     padding: .2rem;
     background-color: blueviolet;
-    background-image: linear-gradient(black, blueviolet);
+    border-radius: 5px;
+}
+
+.main>h3{
+    text-align: center;
 }
 
 .mini {
@@ -26,41 +29,39 @@
     color: white;
     padding: .2rem;
     background-color: blueviolet;
-    background-image: linear-gradient(black, blueviolet);
+    border-radius: 5px;
     width: 35%;
     height: inherit;
+    justify-content: center;
+    text-align: center;
 }
 
-.mini>a>h3{
+.mini>h4{
+    font-family: 'Highlights'!important;
     text-wrap: pretty;
 }
-
-/* .rightCol {
-    color: white;
-    background-image: linear-gradient(
-        to right,
-        blueviolet 0%,
-        blueviolet 60%,
-        white 60%,
-        white 100%
-        );
-        } */
-        
+      
 
 .right {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    border: 1px solid black;
+    border: 2px solid white;
+    border-radius: 5px;
     width: 60%;
     padding: .2rem;
     height: inherit;
+}
+.content>h3{
+    text-align: center;
+    margin-top: .2rem;
 }
 .cont{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    border: 1px solid black;
+    border: 2px solid white;
+    border-radius: 5px;
     width: 95%;
     padding: .2rem;
     height: fit-content;
@@ -71,7 +72,7 @@ h2 {
 }
 
 .line{
-   border-top: 1px solid black;
-   height: 50%;
-   width: 1em;
+    border-top: 2px solid blueviolet;
+    height: 50%;
+    width: 1em;
 }

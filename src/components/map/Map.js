@@ -24,11 +24,12 @@ export const Map = () => {
     return ( 
     <div className={style.map}>
         <div className={style.main}>
-        <h1>{`${capitalize(id)}`}</h1>
+            <h1>{`${capitalize(id)}`}</h1>
+            <h3>Page Summary</h3>
         <p>{summary_dic[id]}</p>
         </div>
-        <div className={style.rightCol}>
-        <h2>{`${capitalize(id)} Content`}</h2>
+        <div className={style.content}>
+        <h3>Page Content</h3>
         {sxatic}
         {links}
         </div>

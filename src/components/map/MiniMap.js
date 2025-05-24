@@ -4,7 +4,7 @@ import style from './map.module.css'
 export const MiniMap = ({link}) => {
     return (
             <NavLink to={`/map/:${link}`} className={style.mini}>
-            <h3>{capitalize(link)}</h3>
+            <h4>{capitalize(link)}</h4>
             </NavLink>
     )
 }

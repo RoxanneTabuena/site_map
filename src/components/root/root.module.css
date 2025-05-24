@@ -1,8 +1,26 @@
 body{
+    color: white;
+    background-color: deeppink;
+}
+body>*{
     background-color: black;
+    max-height: 585px;
+}
+h1 {
+    font-family: 'Highlights';
+    text-align: center;
+}
+
+h2, h3, h4 {
+    font-family: 'Titles';
+}
+
+p{
+    font-weight: 700;
 }
 .root{
-    color: blueviolet;
+    font-family: 'Titles';
+    color: white;
     font-weight: 700;
     display: block;
     width: 100%;
