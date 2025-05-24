@@ -1,9 +1,9 @@
 body{
     color: white;
+    background-color: black;
 }
 body>*{
     background-color: black;
-    max-height: 585px;
 }
 h1 {
     font-family: 'Highlights';
@@ -25,4 +25,14 @@ p{
     width: 100%;
     text-align: right;
     padding: .2rem;
+}
+/* mobile sizing */
+@media only screen and (max-width: 480px){
+    h1{
+        font-size: 1.5rem;
+    }
+
+    p, a {
+        font-size: .9rem;
+    }
 }
