@@ -131,7 +131,6 @@ export const content_dic = {
         {'root': 'root'}
     ]
 }
-console.log(Object.keys(content_dic))
 export const summary_dic = {
     'about rhema': 'The face of your company. Its a great spot to showcase all your strengths and win client trust',
     'backline rentals': 'A place to relay general information about rentals and the rental process',
