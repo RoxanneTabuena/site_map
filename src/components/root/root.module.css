@@ -1,8 +1,11 @@
+body{
+    background-color: black;
+}
 .root{
     color: blueviolet;
     font-weight: 700;
     display: block;
     width: 100%;
     text-align: right;
-    padding: .5rem;
+    padding: .2rem;
 }
